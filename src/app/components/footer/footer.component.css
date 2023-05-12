@@ -1,0 +1,20 @@
+.page-footer{
+    width: 100%;
+    background-color: black;
+    padding: 0;
+}
+.page-footer .container .row .redes-sociales a{
+    color: white;
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    margin-right: 10px;
+    background-color: #1d1e1f;
+    text-align: center;
+}
+.page-footer .container .row {
+    text-align: center;
+    padding: 45px 0px;
+}
