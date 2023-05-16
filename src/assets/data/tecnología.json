@@ -161,5 +161,97 @@
     "precio": 11.99,
     "imagen": "https://firebasestorage.googleapis.com/v0/b/proyectofinal-b7540.appspot.com/o/31wxV3Qcq3L._AC_.jpg?alt=media&token=9729e9ea-9e7b-4991-8c99-75b7aaa594a4"
   }
+],
+"ofertas":[
+  {
+    "id ": 1,
+    "nombreProducto": "Nintendo swicht ",
+    "marca ": "Nintendo",
+    "detalle": "Consola videojuegos",
+    "precio_normal": 250,
+    "precio_oferta": 200,
+    "Imagen": "https://firebasestorage.googleapis.com/v0/b/proyectofinal-b7540.appspot.com/o/D_NQ_NP_770676-MLA32731813622_112019-O.jpg?alt=media&token=a12b79e0-9379-4764-ab93-13817074967b"
+  },
+  {
+    "id ": 2,
+    "nombreProducto": "PlayStation 5",
+    "marca ": "PlayStation",
+    "detalle": "Consola videojuegos",
+    "precio_normal": 741,
+    "precio_oferta": 700,
+    "Imagen": "https://firebasestorage.googleapis.com/v0/b/proyectofinal-b7540.appspot.com/o/IMG_5681.jpg?alt=media&token=95839896-1fa8-4676-8da7-20c2f45adfa2"
+  },
+  {
+    "id ": 3,
+    "nombreProducto": "Consola series S",
+    "marca ": "Xbox",
+    "detalle": "Consola videojuegos",
+    "precio_normal": 400,
+    "precio_oferta": 350,
+    "Imagen": "https://firebasestorage.googleapis.com/v0/b/proyectofinal-b7540.appspot.com/o/images.jpeg?alt=media&token=6f262c92-f892-43c4-9ee3-f90c22847399"
+  },
+  {
+    "id ": 4,
+    "nombreProducto": "Mi 11",
+    "marca ": "Xiaomi",
+    "detalle": "Telefono Celular",
+    "precio_normal": 450,
+    "precio_oferta": 400,
+    "Imagen": "https://firebasestorage.googleapis.com/v0/b/proyectofinal-b7540.appspot.com/o/descarga.jpeg?alt=media&token=2031b944-4e55-4101-af06-6c081d44dfd7"
+  },
+  {
+    "id ": 5,
+    "nombreProducto": "Xr",
+    "marca ": "Iphone",
+    "detalle": "Telefono Celular",
+    "precio_normal": 280,
+    "precio_oferta": 200,
+    "Imagen": "https://firebasestorage.googleapis.com/v0/b/proyectofinal-b7540.appspot.com/o/descarga%20(1).jpeg?alt=media&token=8a0e0059-cd55-4fe5-94f0-e18e588fabc1"
+  },
+  {
+    "id ": 6,
+    "nombreProducto": "Monitor",
+    "marca ": "Samsung",
+    "detalle": "Led, Diseño sin bordes",
+    "precio_normal": 250,
+    "precio_oferta": 200,
+    "Imagen": "PRODS_1_2018-01-31_16-06-01.jpg (800×600) (firebasestorage.googleapis.com)"
+  },
+  {
+    "id ": 7,
+    "nombreProducto": "Monitor",
+    "marca ": "Hp",
+    "detalle": "Led",
+    "precio_normal": 194,
+    "precio_oferta": 90,
+    "Imagen": "https://firebasestorage.googleapis.com/v0/b/proyectofinal-b7540.appspot.com/o/100065872.jpeg?alt=media&token=86a1aeb8-dcdb-4a83-89b9-4c6b53cec6fb"
+  },
+  {
+    "id ": 8,
+    "nombreProducto": "Mouse ",
+    "marca ": "logitech",
+    "detalle": "Mouse gamer",
+    "precio_normal": 30,
+    "precio_oferta": 20,
+    "Imagen": "https://firebasestorage.googleapis.com/v0/b/proyectofinal-b7540.appspot.com/o/mouse-gamer-inalambrico-logitech-g502-hero-lightspeed.jpg?alt=media&token=bd0b9bd9-b2d1-4076-b089-5188cd014263"
+  },
+  {
+    "id ": 9,
+    "nombreProducto": "Macbook",
+    "marca ": "Apple",
+    "detalle": "laptop",
+    "precio_normal": 589,
+    "precio_oferta": 300,
+    "Imagen": "https://firebasestorage.googleapis.com/v0/b/proyectofinal-b7540.appspot.com/o/descarga%20(2).jpeg?alt=media&token=3bb15a6e-bf8e-46ac-8952-864af551b62d"
+  },
+  {
+    "id ": 10,
+    "nombreProducto": "Mando Original",
+    "marca ": "Xbox",
+    "detalle": "inalambrico, color blanco",
+    "precio_normal": 95,
+    "precio_oferta": 60,
+    "Imagen": "https://firebasestorage.googleapis.com/v0/b/proyectofinal-b7540.appspot.com/o/1366_2000.jpg?alt=media&token=bf73e83c-8928-4968-b9e7-5d87cb39e6bd"
+  }
 ]
 }
