@@ -1,54 +1,22 @@
 <table class="table table-striped">
-    <thead>
-      <tr>
-        <th>productos</th>
-        <th>descripcion</th>
-        <th>precio</th>
-        <th>realizar compra</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><img src="https://think-ecuador.com/wp-content/uploads/2022/10/iPhone_14_Pro_Max_Lineup_Screen__WWEN-scaled.jpg" style="height: 100px;"></td>
-        <td>iphone 14</td>
-        <td>1400$</td>
-        <td><button type="button" class="btn btn-primary">comprar</button></td>
-      </tr>
-      <tr>
-        <td><img src="https://nomadaware.com.ec/wp-content/uploads/2022/05/3-copia.png" style="height: 100px;"></td>
-        <td>laptop ASUS GAMER</td>
-        <td>1549$</td>
-        <td><button type="button" class="btn btn-primary">comprar</button></td>
-      </tr>
-      <tr>
-        <td><img src="https://http2.mlstatic.com/D_NQ_NP_669020-MLA48623916896_122021-O.webp"style="height: 100px;"></td>
-        <td>notebook HP</td>
-        <td>650$</td>
-        <td><button type="button" class="btn btn-primary">comprar</button></td>
-      </tr>
-      <tr>
-        <td><img src="https://cdn.shopify.com/s/files/1/2308/0861/products/1400x1050redmi-note-11-pro-5g-ve-4g-modelleri-tanitildi-iste-ozellikleri_1024x1024.jpg?v=1648611917"style="height: 100px;"></td>
-        <td>Xiaomi redMi Note 11 pro</td>
-        <td>240$</td>
-        <td><button type="button" class="btn btn-primary">comprar</button></td>
-      </tr>
-      <tr>
-        <td><img src="https://http2.mlstatic.com/D_NQ_NP_802679-MLA52696885129_122022-O.jpg"style="height: 100px;"></td>
-        <td>PlayStation 5 Edicion especial God Of War</td>
-        <td>719$</td>
-        <td><button type="button" class="btn btn-primary">comprar</button></td>
-      </tr>
-      <tr>
-        <td><img src="https://crecos.vtexassets.com/arquivos/ids/216124-800-auto?v=637787400626400000&width=800&height=auto&aspect=true"style="height: 100px;"></td>
-        <td>nintendo switch OLED </td>
-        <td>500$</td>
-        <td><button type="button" class="btn btn-primary">comprar</button></td>
-      </tr>
-      <tr>
-        <td><img src="https://http2.mlstatic.com/D_NQ_NP_963862-MLA45041918050_032021-O.jpg"style="height: 100px;"></td>
-        <td>Xbox Series X</td>
-        <td>600$</td>
-        <td><button type="button" class="btn btn-primary">comprar</button></td>
-      </tr>
-    </tbody>
-  </table>
+  <thead>
+    <tr>
+      <th>id</th>
+      <th>nombre producto</th>
+      <th>marca</th>
+      <th>detalle</th>
+      <th>precio</th>
+      <th>imagen</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let item of dataProductos">
+      <td>{{item.id}}</td>
+      <td>{{item.nombre_producto}}</td>
+      <td>{{item.marca}}</td>
+      <td>{{item.detalle}}</td>
+      <td>{{item.precio}}</td>
+      <td><img src={{item.imagen}} class="imagenproducto"></td>
+    </tr>
+  </tbody>
+</table>
