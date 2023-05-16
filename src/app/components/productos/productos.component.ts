@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { ProductosService } from 'src/app/servicios/productos.service';
 
 @Component({
   selector: 'app-productos',
@@ -7,4 +8,15 @@ import { Component } from '@angular/core';
 })
 export class ProductosComponent {
 
-}
+  constructor(private servicio: ProductosService){
+
+  }
+  dataProductos:any={};
+  ngOnInit(){
+    this.servicio.getProductos().subscribe( productos =>{
+        this.dataProductos=productos;
+      })
+    }
+  }
+
+
