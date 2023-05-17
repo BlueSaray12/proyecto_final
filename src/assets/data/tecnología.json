@@ -240,5 +240,11 @@
       "precio_oferta": 60,
       "Imagen": "https://firebasestorage.googleapis.com/v0/b/proyectofinal-b7540.appspot.com/o/1366_2000.jpg?alt=media&token=bf73e83c-8928-4968-b9e7-5d87cb39e6bd"
     }
+  ],
+  "user": [
+    {
+      "id": "admin",
+      "pass": "12345"
+    }
   ]
 }

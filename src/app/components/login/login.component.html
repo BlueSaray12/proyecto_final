@@ -1,0 +1,17 @@
+<form (ngSubmit)="login()">
+
+
+    <div class="mb-3 mt-3">
+      <label for="nick" class="form-label">Nick:</label>
+      <input type="text" class="form-control" id="nick" 
+      placeholder="Enter nick" name="email" [(ngModel)]="nick">
+    </div>
+
+    <div class="mb-3">
+      <label for="pwd" class="form-label">Password:</label>
+      <input type="password" class="form-control" id="pwd" 
+      placeholder="Enter password" name="pswd" [(ngModel)]="pass">
+    </div>
+ 
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>

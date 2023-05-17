@@ -8,11 +8,14 @@ import { OfertasComponent } from './components/ofertas/ofertas.component';
 import { NosotrosComponent } from './components/nosotros/nosotros.component';
 import { ContactosComponent } from './components/contactos/contactos.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
+import { FormsModule } from '@angular/forms';
 import { FooterComponent } from './components/footer/footer.component';
 import { E404Component } from './components/e404/e404.component';
 import { ProductosComponent } from './components/productos/productos.component';
 import { HttpClientModule } from '@angular/common/http';
 import { FormularioComponent } from './components/formulario/formulario.component';
+import { LoginComponent } from './components/login/login.component';
+import { RegisterComponent } from './components/register/register.component';
 
 @NgModule({
   declarations: [
@@ -25,11 +28,14 @@ import { FormularioComponent } from './components/formulario/formulario.componen
     FooterComponent,
     E404Component,
     ProductosComponent,
-    FormularioComponent
+    FormularioComponent,
+    LoginComponent,
+    RegisterComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
+    FormsModule,
     HttpClientModule
   ],
   providers: [],

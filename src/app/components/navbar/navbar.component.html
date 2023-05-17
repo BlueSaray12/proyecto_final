@@ -10,6 +10,18 @@
                 <li class="nav-item">
                     <a class="nav-link" href="home">Home</a>
                 </li>
+                <div *ngIf="login=='false'; else aux">
+                    <li class="nav-item">
+                      <a class="nav-link" href="login">Login</a>
+                      
+                    </li>
+                </div>
+                <ng-template #aux>
+                    <li class="nav-item">
+                      <a class="nav-link" href="login">LogOut</a>
+                    </li>
+                </ng-template>
+
                 <li class="nav-item">
                     <a class="nav-link" href="productos">Productos</a>
                 </li>
