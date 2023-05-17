@@ -12,4 +12,20 @@ export class OfertasService {
   getOfertas(): Observable <any>{
     return this.http.get(this.API_Ofertas)
   }
+  postOfertas(user: any): Observable<any>{
+    return this.http.post(this.API_Ofertas, user)
+  }
+
+  //METODO PUT/UPDATE
+  putOfertas(user:any, id:string):Observable<any>{
+    
+    this.API_Ofertas=`${this.API_Ofertas}/${id}`
+    return this.http.put(this.API_Ofertas, user)
+
+  }
+  //METODO DELETE
+    deleteOfertas(id:number) : Observable <any>{
+      this.API_Ofertas=`${this.API_Ofertas}/${id}`
+      return this.http.delete(this.API_Ofertas)
+    }
 }

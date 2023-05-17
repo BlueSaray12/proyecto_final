@@ -1,0 +1,48 @@
+<body>
+    <form>
+        <div class="row">
+
+            <div class="mb-3 mt-3 col">
+                <label for="id" class="form-label">Id:</label>
+                <input type="text" class="form-control" id="id" placeholder="Enter id" #id>
+            </div>
+            <div class="mb-3 mt-3 col">
+                <label for="nombrep" class="form-label">Nombre Producto:</label>
+                <input type="text" class="form-control" id="nombrep" placeholder="Enter producto" #nombreProducto>
+            </div>
+
+            <div class="mb-3 mt-3 col">
+                <label for="marca" class="form-label">Marca:</label>
+                <input type="text" class="form-control" id="marca" placeholder="Enter marca" #marca>
+            </div>
+
+            <div class="mb-3 mt-3 col">
+                <label for="detalle" class="form-label">Detalle:</label>
+                <input type="text" class="form-control" id="detalle" placeholder="Enter detalle" #detalle>
+            </div>
+
+            <div class="mb-3 mt-3 col">
+                <label for="precion" class="form-label">Precio Normal:</label>
+                <input type="text" class="form-control" id="precion" placeholder="Enter precio normal" #precio_normal>
+            </div>
+
+            <div class="mb-3 mt-3 col">
+                <label for="precioof" class="form-label">Precio Oferta:</label>
+                <input type="text" class="form-control" id="precioof" placeholder="Enter precio oferta" #precio_oferta>
+            </div>
+
+        </div>
+
+
+        <div class="row">
+
+            <button type="submit" class=" btn btn-primary col" (click)="guardarOfertas(id.value,nombreProducto.value,
+            marca.value, detalle.value, precio_normal.value,precio_oferta.value)">Enviar</button>
+
+            <button type="submit" class=" btn btn-success col" (click)="actualizarOfertas(id.value,nombreProducto.value,
+            marca.value, detalle.value, precio_normal.value,precio_oferta.value)">Actualizar</button>
+            <button type="submit" class=" btn btn-danger col" (click)="eliminarOfertas(id.value)">Eliminar</button>
+
+        </div>
+    </form>
+</body>

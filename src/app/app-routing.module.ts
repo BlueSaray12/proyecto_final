@@ -6,6 +6,7 @@ import { ProductosComponent } from './components/productos/productos.component';
 import { OfertasComponent } from './components/ofertas/ofertas.component';
 import { NosotrosComponent } from './components/nosotros/nosotros.component';
 import { ContactosComponent } from './components/contactos/contactos.component';
+import { FormularioComponent } from './components/formulario/formulario.component';
 
 const routes: Routes = [
   {path:'home', component: HomeComponent},
@@ -13,6 +14,7 @@ const routes: Routes = [
   {path:'ofertas', component: OfertasComponent},
   {path:'nosotros', component: NosotrosComponent},
   {path:'contactos', component: ContactosComponent},
+  {path:'formulario', component: FormularioComponent},
 
   {path:'', redirectTo:'home', pathMatch:'full'},
 

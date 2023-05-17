@@ -12,6 +12,7 @@ import { FooterComponent } from './components/footer/footer.component';
 import { E404Component } from './components/e404/e404.component';
 import { ProductosComponent } from './components/productos/productos.component';
 import { HttpClientModule } from '@angular/common/http';
+import { FormularioComponent } from './components/formulario/formulario.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { HttpClientModule } from '@angular/common/http';
     NavbarComponent,
     FooterComponent,
     E404Component,
-    ProductosComponent
+    ProductosComponent,
+    FormularioComponent
   ],
   imports: [
     BrowserModule,

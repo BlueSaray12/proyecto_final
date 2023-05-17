@@ -1,257 +1,244 @@
 {
-  "Productos":
-[
-  {
-    "id": 1,
-    "nombre_producto": "Teclado K556 PRO",
-    "marca": "Redragon",
-    "detalle": "Teclado Gaming",
-    "precio": 84.99,
-    "imagen": "https://firebasestorage.googleapis.com/v0/b/proyectofinal-b7540.appspot.com/o/41Bv9Z-f8DL._SL500_.jpg?alt=media&token=09920121-9211-47ad-8ead-3c7c3969e293"
-  },
-  {
-    "id": 2,
-    "nombre_producto": "Auriculares",
-    "marca": "Tatybo ",
-    "detalle": "Auriculares para PlayStations",
-    "precio": 21.99,
-    "imagen": "https://firebasestorage.googleapis.com/v0/b/proyectofinal-b7540.appspot.com/o/71RYSkc5fiL.jpg?alt=media&token=cb981a0c-0ecb-4158-aa75-26736fa4ddf8"
-  },
-  {
-    "id": 3,
-    "nombre_producto": "Ratón inalámbrico",
-    "marca": "T-DAGGER ",
-    "detalle": "Ratón inalámbrico para juegos",
-    "precio": 18.49,
-    "imagen": "https://firebasestorage.googleapis.com/v0/b/proyectofinal-b7540.appspot.com/o/1058-producto-t1-4273.jpg?alt=media&token=28bc8260-ac85-43c8-a536-44a823d3d255"
-  },
-  {
-    "id": 4,
-    "nombre_producto": "Laptop Acer",
-    "marca": "Acer Nitro 5 AN515-58-57Y8",
-    "detalle": "Laptop Gaming",
-    "precio": 899,
-    "imagen": "https://firebasestorage.googleapis.com/v0/b/proyectofinal-b7540.appspot.com/o/maxitec-acer-laptop-gaming-acer-nitro-core-i5-an515-55-506k-1.jpg?alt=media&token=ea03ef59-be41-4bb3-94e9-5f196f3b597f"
-  },
-  {
-    "id": 5,
-    "nombre_producto": "Laptop",
-    "marca": "Lenovo",
-    "detalle": "Laptop de trabajo",
-    "precio": 399,
-    "imagen": "https://firebasestorage.googleapis.com/v0/b/proyectofinal-b7540.appspot.com/o/82H802ABLM-1.jpg?alt=media&token=0bceeb10-dc02-41ef-9dc5-803d61a7090d"
-  },
-  {
-    "id": 6,
-    "nombre_producto": "Laptop ",
-    "marca": "HP",
-    "detalle": "Laptop de trabajo",
-    "precio": 1029,
-    "imagen": "https://firebasestorage.googleapis.com/v0/b/proyectofinal-b7540.appspot.com/o/D_NQ_NP_960011-MLA52697243841_122022-O.jpg?alt=media&token=0c48e948-f729-43aa-9568-3cc8485ba2b9"
-  },
-  {
-    "id": 7,
-    "nombre_producto": "Teclado Basics",
-    "marca": "Amazon",
-    "detalle": "Teclado Gaming",
-    "precio": 12.68,
-    "imagen": "https://firebasestorage.googleapis.com/v0/b/proyectofinal-b7540.appspot.com/o/41q8Wd1h5xL._SL500_.jpg?alt=media&token=7c48f17e-d0b2-46e4-b3ad-21b853ed812d"
-  },
-  {
-    "id": 8,
-    "nombre_producto": "AirTag",
-    "marca": "Apple ",
-    "detalle": "Detalle dispositivo GPS",
-    "precio": 39.99,
-    "imagen": "https://firebasestorage.googleapis.com/v0/b/proyectofinal-b7540.appspot.com/o/AirTag_White_Pure_Front_Screen__USEN-1.jpg?alt=media&token=814dd422-59a5-4163-bc42-d9ce0d1e078a"
-  },
-  {
-    "id": 9,
-    "nombre_producto": "AirPods ",
-    "marca": "Apple ",
-    "detalle": "Audifonos inalámbricos",
-    "precio": 74.25,
-    "imagen": "https://firebasestorage.googleapis.com/v0/b/proyectofinal-b7540.appspot.com/o/HFZYUJJHQ5HMBFNLNANOILY37Y.jpg?alt=media&token=00eaf753-c9ed-4e9b-9dd7-bdef244196e1"
-  },
-  {
-    "id": 10,
-    "nombre_producto": "Adaptador ",
-    "marca": "Apple ",
-    "detalle": "Adaptador para audifonos",
-    "precio": 13.95,
-    "imagen": "https://firebasestorage.googleapis.com/v0/b/proyectofinal-b7540.appspot.com/o/USB-C-DIGITAL-AV-MULTIPORT-ADAPTER.jpg?alt=media&token=fc77bc92-8a04-4d18-9a11-e8ba9f423bc8"
-  },
-  {
-    "id": 11,
-    "nombre_producto": "Tablet Fire HD",
-    "marca": "Amazon",
-    "detalle": "Tablet Digital ",
-    "precio": 141.17,
-    "imagen": "https://firebasestorage.googleapis.com/v0/b/proyectofinal-b7540.appspot.com/o/tablet-amazon-fire-hd-8.jpg?alt=media&token=e19ea6e5-7d7b-4b60-8999-fa9ae0ea6944"
-  },
-  {
-    "id": 12,
-    "nombre_producto": "Galazy Z Flip 4",
-    "marca": "Samsung",
-    "detalle": "Celular Flexible",
-    "precio": 634.12,
-    "imagen": "https://firebasestorage.googleapis.com/v0/b/proyectofinal-b7540.appspot.com/o/61O70Uca38L._SX679_.jpg?alt=media&token=6e2ef195-d80f-4d57-a413-c50b1c2b3db4"
-  },
-  {
-    "id": 13,
-    "nombre_producto": "Iphone XS Max",
-    "marca": "Apple ",
-    "detalle": "Celular Apple",
-    "precio": 367.99,
-    "imagen": "https://firebasestorage.googleapis.com/v0/b/proyectofinal-b7540.appspot.com/o/D_NQ_NP_693195-MLA43761512367_102020-O.jpg?alt=media&token=5c871c31-82a3-4d72-90e0-83187f156d52"
-  },
-  {
-    "id": 14,
-    "nombre_producto": "Galaxy S10",
-    "marca": "Sansung",
-    "detalle": "Celular Sansung",
-    "precio": 155.44,
-    "imagen": "https://firebasestorage.googleapis.com/v0/b/proyectofinal-b7540.appspot.com/o/1366_2000.jpg?alt=media&token=71743eed-251b-4594-9cb7-011fd220256e"
-  },
-  {
-    "id": 15,
-    "nombre_producto": "Funda de PC",
-    "marca": "MUSETEX ATX",
-    "detalle": "Case de compuatdora",
-    "precio": 89.99,
-    "imagen": "https://firebasestorage.googleapis.com/v0/b/proyectofinal-b7540.appspot.com/o/41MeYY54QDL._SL500_.jpg?alt=media&token=0ba12611-6057-4f47-9f88-bfd84fe45b91"
-  },
-  {
-    "id": 16,
-    "nombre_producto": "Case",
-    "marca": "GAMDIAS ATX ",
-    "detalle": "Case de compuatdora",
-    "precio": 74.99,
-    "imagen": "https://firebasestorage.googleapis.com/v0/b/proyectofinal-b7540.appspot.com/o/51ZoZ8PI8mL._SL500_.jpg?alt=media&token=30aa4f6e-4af1-48ea-b167-d08790f65e3b"
-  },
-  {
-    "id": 17,
-    "nombre_producto": "Micrófono",
-    "marca": "Shure SM7B",
-    "detalle": "Micrófono inalámbrico",
-    "precio": 379.99,
-    "imagen": "https://firebasestorage.googleapis.com/v0/b/proyectofinal-b7540.appspot.com/o/SM7B-large.jpg?alt=media&token=9029eebd-a3b8-49c2-935d-9eb9bda8547d"
-  },
-  {
-    "id": 18,
-    "nombre_producto": "Funda de Celular",
-    "marca": "Apple ",
-    "detalle": "Funda para celulares de Apple",
-    "precio": 9.00,
-    "imagen": "https://firebasestorage.googleapis.com/v0/b/proyectofinal-b7540.appspot.com/o/s-l300.jpg?alt=media&token=9ddb961e-4c6b-4439-9cb3-71207accd602"
-  },
-  {
-    "id": 19,
-    "nombre_producto": "Teléfono Pixel 7a",
-    "marca": "Google ",
-    "detalle": "Celular Google",
-    "precio": 499,
-    "imagen": "https://firebasestorage.googleapis.com/v0/b/proyectofinal-b7540.appspot.com/o/Google-Pixel-7a-destacada.jpg?alt=media&token=88c4ea7d-be52-4494-af5a-061a636a9e0d"
-  },
-  {
-    "id": 20,
-    "nombre_producto": "Mouse Basics inalámbrico",
-    "marca": "Amazon",
-    "detalle": "Mouse inalámbrico",
-    "precio": 11.99,
-    "imagen": "https://firebasestorage.googleapis.com/v0/b/proyectofinal-b7540.appspot.com/o/31wxV3Qcq3L._AC_.jpg?alt=media&token=9729e9ea-9e7b-4991-8c99-75b7aaa594a4"
-  }
-],
-"ofertas":[
-  {
-    "id ": 1,
-    "nombreProducto": "Nintendo swicht ",
-    "marca ": "Nintendo",
-    "detalle": "Consola videojuegos",
-    "precio_normal": 250,
-    "precio_oferta": 200,
-    "Imagen": "https://firebasestorage.googleapis.com/v0/b/proyectofinal-b7540.appspot.com/o/D_NQ_NP_770676-MLA32731813622_112019-O.jpg?alt=media&token=a12b79e0-9379-4764-ab93-13817074967b"
-  },
-  {
-    "id ": 2,
-    "nombreProducto": "PlayStation 5",
-    "marca ": "PlayStation",
-    "detalle": "Consola videojuegos",
-    "precio_normal": 741,
-    "precio_oferta": 700,
-    "Imagen": "https://firebasestorage.googleapis.com/v0/b/proyectofinal-b7540.appspot.com/o/IMG_5681.jpg?alt=media&token=95839896-1fa8-4676-8da7-20c2f45adfa2"
-  },
-  {
-    "id ": 3,
-    "nombreProducto": "Consola series S",
-    "marca ": "Xbox",
-    "detalle": "Consola videojuegos",
-    "precio_normal": 400,
-    "precio_oferta": 350,
-    "Imagen": "https://firebasestorage.googleapis.com/v0/b/proyectofinal-b7540.appspot.com/o/images.jpeg?alt=media&token=6f262c92-f892-43c4-9ee3-f90c22847399"
-  },
-  {
-    "id ": 4,
-    "nombreProducto": "Mi 11",
-    "marca ": "Xiaomi",
-    "detalle": "Telefono Celular",
-    "precio_normal": 450,
-    "precio_oferta": 400,
-    "Imagen": "https://firebasestorage.googleapis.com/v0/b/proyectofinal-b7540.appspot.com/o/descarga.jpeg?alt=media&token=2031b944-4e55-4101-af06-6c081d44dfd7"
-  },
-  {
-    "id ": 5,
-    "nombreProducto": "Xr",
-    "marca ": "Iphone",
-    "detalle": "Telefono Celular",
-    "precio_normal": 280,
-    "precio_oferta": 200,
-    "Imagen": "https://firebasestorage.googleapis.com/v0/b/proyectofinal-b7540.appspot.com/o/descarga%20(1).jpeg?alt=media&token=8a0e0059-cd55-4fe5-94f0-e18e588fabc1"
-  },
-  {
-    "id ": 6,
-    "nombreProducto": "Monitor",
-    "marca ": "Samsung",
-    "detalle": "Led, Diseño sin bordes",
-    "precio_normal": 250,
-    "precio_oferta": 200,
-    "Imagen": "PRODS_1_2018-01-31_16-06-01.jpg (800×600) (firebasestorage.googleapis.com)"
-  },
-  {
-    "id ": 7,
-    "nombreProducto": "Monitor",
-    "marca ": "Hp",
-    "detalle": "Led",
-    "precio_normal": 194,
-    "precio_oferta": 90,
-    "Imagen": "https://firebasestorage.googleapis.com/v0/b/proyectofinal-b7540.appspot.com/o/100065872.jpeg?alt=media&token=86a1aeb8-dcdb-4a83-89b9-4c6b53cec6fb"
-  },
-  {
-    "id ": 8,
-    "nombreProducto": "Mouse ",
-    "marca ": "logitech",
-    "detalle": "Mouse gamer",
-    "precio_normal": 30,
-    "precio_oferta": 20,
-    "Imagen": "https://firebasestorage.googleapis.com/v0/b/proyectofinal-b7540.appspot.com/o/mouse-gamer-inalambrico-logitech-g502-hero-lightspeed.jpg?alt=media&token=bd0b9bd9-b2d1-4076-b089-5188cd014263"
-  },
-  {
-    "id ": 9,
-    "nombreProducto": "Macbook",
-    "marca ": "Apple",
-    "detalle": "laptop",
-    "precio_normal": 589,
-    "precio_oferta": 300,
-    "Imagen": "https://firebasestorage.googleapis.com/v0/b/proyectofinal-b7540.appspot.com/o/descarga%20(2).jpeg?alt=media&token=3bb15a6e-bf8e-46ac-8952-864af551b62d"
-  },
-  {
-    "id ": 10,
-    "nombreProducto": "Mando Original",
-    "marca ": "Xbox",
-    "detalle": "inalambrico, color blanco",
-    "precio_normal": 95,
-    "precio_oferta": 60,
-    "Imagen": "https://firebasestorage.googleapis.com/v0/b/proyectofinal-b7540.appspot.com/o/1366_2000.jpg?alt=media&token=bf73e83c-8928-4968-b9e7-5d87cb39e6bd"
-  }
-]
+  "Productos": [
+    {
+      "id": 1,
+      "nombre_producto": "Teclado K556 PRO",
+      "marca": "Redragon",
+      "detalle": "Teclado Gaming",
+      "precio": 84.99,
+      "imagen": "https://firebasestorage.googleapis.com/v0/b/proyectofinal-b7540.appspot.com/o/41Bv9Z-f8DL._SL500_.jpg?alt=media&token=09920121-9211-47ad-8ead-3c7c3969e293"
+    },
+    {
+      "id": 3,
+      "nombre_producto": "Ratón inalámbrico",
+      "marca": "T-DAGGER ",
+      "detalle": "Ratón inalámbrico para juegos",
+      "precio": 18.49,
+      "imagen": "https://firebasestorage.googleapis.com/v0/b/proyectofinal-b7540.appspot.com/o/1058-producto-t1-4273.jpg?alt=media&token=28bc8260-ac85-43c8-a536-44a823d3d255"
+    },
+    {
+      "id": 4,
+      "nombre_producto": "Laptop Acer",
+      "marca": "Acer Nitro 5 AN515-58-57Y8",
+      "detalle": "Laptop Gaming",
+      "precio": 899,
+      "imagen": "https://firebasestorage.googleapis.com/v0/b/proyectofinal-b7540.appspot.com/o/maxitec-acer-laptop-gaming-acer-nitro-core-i5-an515-55-506k-1.jpg?alt=media&token=ea03ef59-be41-4bb3-94e9-5f196f3b597f"
+    },
+    {
+      "id": 5,
+      "nombre_producto": "Laptop",
+      "marca": "Lenovo",
+      "detalle": "Laptop de trabajo",
+      "precio": 399,
+      "imagen": "https://firebasestorage.googleapis.com/v0/b/proyectofinal-b7540.appspot.com/o/82H802ABLM-1.jpg?alt=media&token=0bceeb10-dc02-41ef-9dc5-803d61a7090d"
+    },
+    {
+      "id": 6,
+      "nombre_producto": "Laptop ",
+      "marca": "HP",
+      "detalle": "Laptop de trabajo",
+      "precio": 1029,
+      "imagen": "https://firebasestorage.googleapis.com/v0/b/proyectofinal-b7540.appspot.com/o/D_NQ_NP_960011-MLA52697243841_122022-O.jpg?alt=media&token=0c48e948-f729-43aa-9568-3cc8485ba2b9"
+    },
+    {
+      "id": 7,
+      "nombre_producto": "Teclado Basics",
+      "marca": "Amazon",
+      "detalle": "Teclado Gaming",
+      "precio": 12.68,
+      "imagen": "https://firebasestorage.googleapis.com/v0/b/proyectofinal-b7540.appspot.com/o/41q8Wd1h5xL._SL500_.jpg?alt=media&token=7c48f17e-d0b2-46e4-b3ad-21b853ed812d"
+    },
+    {
+      "id": 8,
+      "nombre_producto": "AirTag",
+      "marca": "Apple ",
+      "detalle": "Detalle dispositivo GPS",
+      "precio": 39.99,
+      "imagen": "https://firebasestorage.googleapis.com/v0/b/proyectofinal-b7540.appspot.com/o/AirTag_White_Pure_Front_Screen__USEN-1.jpg?alt=media&token=814dd422-59a5-4163-bc42-d9ce0d1e078a"
+    },
+    {
+      "id": 9,
+      "nombre_producto": "AirPods ",
+      "marca": "Apple ",
+      "detalle": "Audifonos inalámbricos",
+      "precio": 74.25,
+      "imagen": "https://firebasestorage.googleapis.com/v0/b/proyectofinal-b7540.appspot.com/o/HFZYUJJHQ5HMBFNLNANOILY37Y.jpg?alt=media&token=00eaf753-c9ed-4e9b-9dd7-bdef244196e1"
+    },
+    {
+      "id": 10,
+      "nombre_producto": "Adaptador ",
+      "marca": "Apple ",
+      "detalle": "Adaptador para audifonos",
+      "precio": 13.95,
+      "imagen": "https://firebasestorage.googleapis.com/v0/b/proyectofinal-b7540.appspot.com/o/USB-C-DIGITAL-AV-MULTIPORT-ADAPTER.jpg?alt=media&token=fc77bc92-8a04-4d18-9a11-e8ba9f423bc8"
+    },
+    {
+      "id": 11,
+      "nombre_producto": "Tablet Fire HD",
+      "marca": "Amazon",
+      "detalle": "Tablet Digital ",
+      "precio": 141.17,
+      "imagen": "https://firebasestorage.googleapis.com/v0/b/proyectofinal-b7540.appspot.com/o/tablet-amazon-fire-hd-8.jpg?alt=media&token=e19ea6e5-7d7b-4b60-8999-fa9ae0ea6944"
+    },
+    {
+      "id": 12,
+      "nombre_producto": "Galazy Z Flip 4",
+      "marca": "Samsung",
+      "detalle": "Celular Flexible",
+      "precio": 634.12,
+      "imagen": "https://firebasestorage.googleapis.com/v0/b/proyectofinal-b7540.appspot.com/o/61O70Uca38L._SX679_.jpg?alt=media&token=6e2ef195-d80f-4d57-a413-c50b1c2b3db4"
+    },
+    {
+      "id": 13,
+      "nombre_producto": "Iphone XS Max",
+      "marca": "Apple ",
+      "detalle": "Celular Apple",
+      "precio": 367.99,
+      "imagen": "https://firebasestorage.googleapis.com/v0/b/proyectofinal-b7540.appspot.com/o/D_NQ_NP_693195-MLA43761512367_102020-O.jpg?alt=media&token=5c871c31-82a3-4d72-90e0-83187f156d52"
+    },
+    {
+      "id": 14,
+      "nombre_producto": "Galaxy S10",
+      "marca": "Sansung",
+      "detalle": "Celular Sansung",
+      "precio": 155.44,
+      "imagen": "https://firebasestorage.googleapis.com/v0/b/proyectofinal-b7540.appspot.com/o/1366_2000.jpg?alt=media&token=71743eed-251b-4594-9cb7-011fd220256e"
+    },
+    {
+      "id": 15,
+      "nombre_producto": "Funda de PC",
+      "marca": "MUSETEX ATX",
+      "detalle": "Case de compuatdora",
+      "precio": 89.99,
+      "imagen": "https://firebasestorage.googleapis.com/v0/b/proyectofinal-b7540.appspot.com/o/41MeYY54QDL._SL500_.jpg?alt=media&token=0ba12611-6057-4f47-9f88-bfd84fe45b91"
+    },
+    {
+      "id": 16,
+      "nombre_producto": "Case",
+      "marca": "GAMDIAS ATX ",
+      "detalle": "Case de compuatdora",
+      "precio": 74.99,
+      "imagen": "https://firebasestorage.googleapis.com/v0/b/proyectofinal-b7540.appspot.com/o/51ZoZ8PI8mL._SL500_.jpg?alt=media&token=30aa4f6e-4af1-48ea-b167-d08790f65e3b"
+    },
+    {
+      "id": 17,
+      "nombre_producto": "Micrófono",
+      "marca": "Shure SM7B",
+      "detalle": "Micrófono inalámbrico",
+      "precio": 379.99,
+      "imagen": "https://firebasestorage.googleapis.com/v0/b/proyectofinal-b7540.appspot.com/o/SM7B-large.jpg?alt=media&token=9029eebd-a3b8-49c2-935d-9eb9bda8547d"
+    },
+    {
+      "id": 18,
+      "nombre_producto": "Funda de Celular",
+      "marca": "Apple ",
+      "detalle": "Funda para celulares de Apple",
+      "precio": 9,
+      "imagen": "https://firebasestorage.googleapis.com/v0/b/proyectofinal-b7540.appspot.com/o/s-l300.jpg?alt=media&token=9ddb961e-4c6b-4439-9cb3-71207accd602"
+    },
+    {
+      "id": 19,
+      "nombre_producto": "Teléfono Pixel 7a",
+      "marca": "Google ",
+      "detalle": "Celular Google",
+      "precio": 499,
+      "imagen": "https://firebasestorage.googleapis.com/v0/b/proyectofinal-b7540.appspot.com/o/Google-Pixel-7a-destacada.jpg?alt=media&token=88c4ea7d-be52-4494-af5a-061a636a9e0d"
+    },
+    {
+      "id": 20,
+      "nombre_producto": "Mouse Basics inalámbrico",
+      "marca": "Amazon",
+      "detalle": "Mouse inalámbrico",
+      "precio": 11.99,
+      "imagen": "https://firebasestorage.googleapis.com/v0/b/proyectofinal-b7540.appspot.com/o/31wxV3Qcq3L._AC_.jpg?alt=media&token=9729e9ea-9e7b-4991-8c99-75b7aaa594a4"
+    },
+    {
+      "id": "2",
+      "title": "Vestido",
+      "price": "20"
+    }
+  ],
+  "ofertas": [
+    {
+      "id": 2,
+      "nombreProducto": "PlayStation 5",
+      "marca": "PlayStation",
+      "detalle": "Consola videojuegos",
+      "precio_normal": 741,
+      "precio_oferta": 700,
+      "Imagen": "https://firebasestorage.googleapis.com/v0/b/proyectofinal-b7540.appspot.com/o/IMG_5681.jpg?alt=media&token=95839896-1fa8-4676-8da7-20c2f45adfa2"
+    },
+    {
+      "id": 3,
+      "nombreProducto": "Consola series S",
+      "marca": "Xbox",
+      "detalle": "Consola videojuegos",
+      "precio_normal": 400,
+      "precio_oferta": 350,
+      "Imagen": "https://firebasestorage.googleapis.com/v0/b/proyectofinal-b7540.appspot.com/o/images.jpeg?alt=media&token=6f262c92-f892-43c4-9ee3-f90c22847399"
+    },
+    {
+      "id": 4,
+      "nombreProducto": "Mi 11",
+      "marca": "Xiaomi",
+      "detalle": "Telefono Celular",
+      "precio_normal": 450,
+      "precio_oferta": 400,
+      "Imagen": "https://firebasestorage.googleapis.com/v0/b/proyectofinal-b7540.appspot.com/o/descarga.jpeg?alt=media&token=2031b944-4e55-4101-af06-6c081d44dfd7"
+    },
+    {
+      "id": 5,
+      "nombreProducto": "Xr",
+      "marca": "Iphone",
+      "detalle": "Telefono Celular",
+      "precio_normal": 280,
+      "precio_oferta": 200,
+      "Imagen": "https://firebasestorage.googleapis.com/v0/b/proyectofinal-b7540.appspot.com/o/descarga%20(1).jpeg?alt=media&token=8a0e0059-cd55-4fe5-94f0-e18e588fabc1"
+    },
+    {
+      "id": 6,
+      "nombreProducto": "Monitor",
+      "marca": "Samsung",
+      "detalle": "Led, Diseño sin bordes",
+      "precio_normal": 250,
+      "precio_oferta": 200,
+      "Imagen": "PRODS_1_2018-01-31_16-06-01.jpg (800×600) (firebasestorage.googleapis.com)"
+    },
+    {
+      "id": 7,
+      "nombreProducto": "Monitor",
+      "marca": "Hp",
+      "detalle": "Led",
+      "precio_normal": 194,
+      "precio_oferta": 90,
+      "Imagen": "https://firebasestorage.googleapis.com/v0/b/proyectofinal-b7540.appspot.com/o/100065872.jpeg?alt=media&token=86a1aeb8-dcdb-4a83-89b9-4c6b53cec6fb"
+    },
+    {
+      "id": 8,
+      "nombreProducto": "Mouse",
+      "marca": "logitech",
+      "detalle": "Mouse gamer",
+      "precio_normal": 30,
+      "precio_oferta": 20,
+      "Imagen": "https://firebasestorage.googleapis.com/v0/b/proyectofinal-b7540.appspot.com/o/mouse-gamer-inalambrico-logitech-g502-hero-lightspeed.jpg?alt=media&token=bd0b9bd9-b2d1-4076-b089-5188cd014263"
+    },
+    {
+      "id": 9,
+      "nombreProducto": "Macbook",
+      "marca": "Apple",
+      "detalle": "laptop",
+      "precio_normal": 589,
+      "precio_oferta": 300,
+      "Imagen": "https://firebasestorage.googleapis.com/v0/b/proyectofinal-b7540.appspot.com/o/descarga%20(2).jpeg?alt=media&token=3bb15a6e-bf8e-46ac-8952-864af551b62d"
+    },
+    {
+      "id": 10,
+      "nombreProducto": "Mando Original",
+      "marca": "Xbox",
+      "detalle": "inalambrico, color blanco",
+      "precio_normal": 95,
+      "precio_oferta": 60,
+      "Imagen": "https://firebasestorage.googleapis.com/v0/b/proyectofinal-b7540.appspot.com/o/1366_2000.jpg?alt=media&token=bf73e83c-8928-4968-b9e7-5d87cb39e6bd"
+    }
+  ]
 }
