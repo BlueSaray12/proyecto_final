@@ -10,6 +10,7 @@ import { FormularioComponent } from './components/formulario/formulario.componen
 import { LoginComponent } from './components/login/login.component';
 import { RegisterComponent } from './components/register/register.component';
 import { LoginGuard } from './guards/login.guard';
+import { CartComponent } from './components/cart/cart.component';
 
 const routes: Routes = [
   {path:'home', component: HomeComponent},
@@ -20,6 +21,7 @@ const routes: Routes = [
   {path:'formulario', component: FormularioComponent, canActivate:[LoginGuard]},
   {path:'login', component: LoginComponent},
   {path:'register', component: RegisterComponent},
+  {path:'carrito', component: CartComponent},
 
   {path:'', redirectTo:'home', pathMatch:'full'},
 

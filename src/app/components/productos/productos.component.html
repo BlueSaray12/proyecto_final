@@ -7,16 +7,20 @@
       <th>detalle</th>
       <th>precio</th>
       <th>imagen</th>
+      <th>Acciones</th>
     </tr>
   </thead>
   <tbody>
     <tr *ngFor="let item of dataProductos">
-      <td>{{item.id}}</td>
-      <td>{{item.nombre_producto}}</td>
-      <td>{{item.marca}}</td>
-      <td>{{item.detalle}}</td>
-      <td>{{item.precio}}</td>
+      <td #id>{{item.id}}</td>
+      <td #nombre_producto>{{item.nombre_producto}}</td>
+      <td #marca>{{item.marca}}</td>
+      <td #detalle>{{item.detalle}}</td>
+      <td #precio>{{item.precio}}</td>
       <td><img src={{item.imagen}} class="imagenproducto"></td>
+
+      <td><button type="submit" class="btn btn-success" (click)="guardarCarrito((id.textContent ?? ''), (nombre_producto.textContent ?? ''),
+        (marca.textContent ?? ''), (detalle.textContent ?? ''), (precio.textContent ?? ''))">Añadir al carrito</button></td>
     </tr>
   </tbody>
 </table>

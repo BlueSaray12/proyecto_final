@@ -9,6 +9,14 @@
       "imagen": "https://firebasestorage.googleapis.com/v0/b/proyectofinal-b7540.appspot.com/o/41Bv9Z-f8DL._SL500_.jpg?alt=media&token=09920121-9211-47ad-8ead-3c7c3969e293"
     },
     {
+      "id": 2,
+      "nombre_producto": "Iphone XS Max",
+      "marca": "Apple ",
+      "detalle": "Celular Apple",
+      "precio": 367.99,
+      "imagen": "https://firebasestorage.googleapis.com/v0/b/proyectofinal-b7540.appspot.com/o/D_NQ_NP_693195-MLA43761512367_102020-O.jpg?alt=media&token=5c871c31-82a3-4d72-90e0-83187f156d52"
+    },
+    {
       "id": 3,
       "nombre_producto": "Ratón inalámbrico",
       "marca": "T-DAGGER ",
@@ -151,11 +159,6 @@
       "detalle": "Mouse inalámbrico",
       "precio": 11.99,
       "imagen": "https://firebasestorage.googleapis.com/v0/b/proyectofinal-b7540.appspot.com/o/31wxV3Qcq3L._AC_.jpg?alt=media&token=9729e9ea-9e7b-4991-8c99-75b7aaa594a4"
-    },
-    {
-      "id": "2",
-      "title": "Vestido",
-      "price": "20"
     }
   ],
   "ofertas": [
@@ -246,5 +249,6 @@
       "id": "admin",
       "pass": "12345"
     }
-  ]
+  ],
+  "cart": []
 }
